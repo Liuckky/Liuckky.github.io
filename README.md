@@ -53,25 +53,7 @@ js/script.js faz três coisas:
 Escreve o ano atual no rodapé.
 Mostra o botão de voltar ao topo quando a rolagem passa de 300 px.
 Valida o formulário de contato (nome com pelo menos 2 caracteres, email em formato válido e mensagem com pelo menos 10 caracteres). Se estiver tudo certo, abre o programa de email com a mensagem pronta (mailto:), porque o GitHub Pages não tem servidor para enviar mensagens. As mensagens de erro seguem o idioma da página.
-Como rodar localmente
 
-Não precisa instalar nada. Baixe ou clone o repositório e abra o index.html no navegador. Se preferir usar um servidor local, rode na pasta do projeto:
-
-bash
-python -m http.server 8000
-
-e acesse http://localhost:8000. É preciso ter internet, porque o Bootstrap e a fonte são carregados por CDN.
-
-Como publicar no GitHub Pages
-Crie um repositório público chamado seu-usuario.github.io.
-Envie todos os arquivos para a raiz do repositório, mantendo as pastas.
-Em Settings → Pages, escolha Deploy from a branch, a branch main e a pasta / (root).
-Após alguns minutos, o site fica disponível em https://seu-usuario.github.io.
-Como personalizar
-Textos: edite os arquivos HTML (lembre de atualizar a versão em português e a em inglês).
-Imagens: substitua os arquivos da pasta images/ mantendo os mesmos nomes (por exemplo, foto-perfil.jpg).
-Projetos: altere os cartões em pages/projetos.html e en/projects.html, incluindo os links do GitHub.
-Cores: mude as variáveis no início do css/style.css.
 Autor
 
 L.N, estudante de Ciência da Computação na UDF.
